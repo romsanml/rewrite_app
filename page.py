@@ -1,7 +1,7 @@
 from openai import OpenAI
 import streamlit as st
 
-st.set_page_config(layout='wide')
+st.set_page_config(page_title='Rewriter', page_icon=':wave:', layout='wide')
 
 
 def creds_entered():
